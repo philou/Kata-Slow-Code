@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2022 Murex
+Copyright (c) 2021 Murex
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,12 +20,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-namespace Murex.Kata.BowlingGame;
+package com.murex;
 
-public class BowlingGame
-{
-    public int GetScore(int[] rolls)
-    {
-        return 0;
+// Instructions here: https://codingdojo.org/kata/Diamond/
+class Diamond {
+    static String draw(char letter) {
+        return "";
     }
 }

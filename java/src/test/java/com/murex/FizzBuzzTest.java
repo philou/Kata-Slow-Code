@@ -20,14 +20,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-package bowling_game
+package com.murex;
 
-import (
-	"github.com/stretchr/testify/assert"
-	"testing"
-)
+import org.junit.Ignore;
+import org.junit.Test;
 
-func Test_acceptance_test(t *testing.T) {
-	t.Skip("test currently disabled") // Comment or remove this line to enable this test case
-	assert.Equal(t, 133, bowlingScore(1, 4, 4, 5, 6, 4, 5, 5, 10, 0, 1, 7, 3, 6, 4, 10, 2, 8, 6))
+import static org.junit.Assert.assertEquals;
+
+public class FizzBuzzTest {
+    @Ignore
+    @Test
+    public void acceptance_test() {
+        assertEquals("Fizz",     FizzBuzz.fizzBuzz(96));
+        assertEquals("97",       FizzBuzz.fizzBuzz(97));
+        assertEquals("98",       FizzBuzz.fizzBuzz(98));
+        assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(99));
+        assertEquals("Buzz",     FizzBuzz.fizzBuzz(100));
+    }
 }

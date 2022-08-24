@@ -1,26 +1,20 @@
-[![Gradle](https://github.com/murex/Kata-BowlingGame/actions/workflows/gradle.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/gradle.yml)
-[![Maven](https://github.com/murex/Kata-BowlingGame/actions/workflows/maven.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/maven.yml)
-[![CMake](https://github.com/murex/Kata-BowlingGame/actions/workflows/cmake.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/cmake.yml)
-[![Go](https://github.com/murex/Kata-BowlingGame/actions/workflows/go.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/go.yml)
-[![Dotnet](https://github.com/murex/Kata-BowlingGame/actions/workflows/dotnet.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/dotnet.yml)
-[![Check Markdown links](https://github.com/murex/Kata-BowlingGame/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/markdown-link-check.yml)
-[![Add contributors](https://github.com/murex/Kata-BowlingGame/actions/workflows/contributors.yml/badge.svg)](https://github.com/murex/Kata-BowlingGame/actions/workflows/contributors.yml)
+[![Gradle](https://github.com/murex/Kata-Slow-Code/actions/workflows/gradle.yml/badge.svg)](https://github.com/murex/Kata-Slow-Code/actions/workflows/gradle.yml)
+[![Maven](https://github.com/murex/Kata-Slow-Code/actions/workflows/maven.yml/badge.svg)](https://github.com/murex/Kata-Slow-Code/actions/workflows/maven.yml)
+[![Check Markdown links](https://github.com/murex/Kata-Slow-Code/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/murex/Kata-Slow-Code/actions/workflows/markdown-link-check.yml)
+[![Add contributors](https://github.com/murex/Kata-Slow-Code/actions/workflows/contributors.yml/badge.svg)](https://github.com/murex/Kata-Slow-Code/actions/workflows/contributors.yml)
 
-# Bowling Game Kata
+# Slow Code Kata
 
-![Bowling Game](./images/BowlingGame.png) <br>
-"[Bowling Strike Bullet Isolated](https://pixabay.com/illustrations/bowling-strike-bullet-isolated-3d-3427969/)" by [MasterTux](https://pixabay.com/fr/users/mastertux-470906/) is licenced under [Pixabay License](https://pixabay.com/fr/service/license/)
+![Slow Snail](./images/slow-snail.jpg) <br>
+"[Slow Down Calman La Nature](https://pixabay.com/fr/photos/slow-down-calmant-la-nature-4418450/)" by [Robert Oertel](https://pixabay.com/fr/users/durststrecke-7814966/) is licenced under [Pixabay License](https://pixabay.com/fr/service/license/)
 
 ## Description
 
-Available [here](http://codingdojo.org/kata/Bowling/)
+This repo is meant to be used with simple katas to practice slow (mindful) coding.
 
 ## Getting Started
 
 - [Java](java/GETTING_STARTED.md)
-- [C++](cpp/GETTING_STARTED.md)
-- [Go](go/GETTING_STARTED.md)
-- [C#](csharp/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
@@ -58,13 +52,10 @@ You can fill it from [here](QuickRetrospective.md)
 ### Source Files
 
 - [Java](java)
-- [C++](cpp)
-- [Go](go)
-- [C#](csharp)
 
 ## License
 
-`Kata-BowlingGame` and the accompanying materials are made available
+`Kata-Slow-Code` and the accompanying materials are made available
 under the terms of the [MIT License](LICENSE.md) which accompanies this
 distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
 

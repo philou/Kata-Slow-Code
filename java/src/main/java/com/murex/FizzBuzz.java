@@ -22,8 +22,9 @@ SOFTWARE.
 
 package com.murex;
 
-class BowlingGame {
-    static int score(int... rolls) {
-        return 0;
+// Instructions here: https://codingdojo.org/kata/FizzBuzz/
+class FizzBuzz {
+    static String fizzBuzz(int i) {
+        return "";
     }
 }
