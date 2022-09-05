@@ -12,6 +12,10 @@
 
 This repo is meant to be used with simple katas to practice slow (mindful) coding.
 
+The 2 katas are:
+- Fizz Buzz, instructions are available [here](https://codingdojo.org/kata/FizzBuzz/)
+- Diamonds, instructions are available [here](https://codingdojo.org/kata/Diamond/)
+
 ## Getting Started
 
 - [Java](java/GETTING_STARTED.md)
@@ -24,9 +28,7 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### For this Kata
 
-- [Acceptance Test Example 1](http://www.labviewcraftsmen.com/blog/bowling-kata-unit-test-framework#)
-- [Acceptance Test Example 2](http://slocums.homestead.com/gamescore.html)
-- [Online Bowling Score Calculator](http://www.bowlinggenius.com/)
+- [Fizz Buzz sequence generator](https://catonmat.net/tools/generate-fizzbuzz-sequence)
 
 ### General
 

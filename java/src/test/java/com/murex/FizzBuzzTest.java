@@ -31,10 +31,16 @@ public class FizzBuzzTest {
     @Ignore
     @Test
     public void acceptance_test() {
+        assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(90));
+        assertEquals("91",       FizzBuzz.fizzBuzz(91));
+        assertEquals("92",       FizzBuzz.fizzBuzz(92));
+        assertEquals("Fizz",     FizzBuzz.fizzBuzz(93));
+        assertEquals("94",       FizzBuzz.fizzBuzz(94));
+        assertEquals("Buzz",     FizzBuzz.fizzBuzz(95));
         assertEquals("Fizz",     FizzBuzz.fizzBuzz(96));
         assertEquals("97",       FizzBuzz.fizzBuzz(97));
         assertEquals("98",       FizzBuzz.fizzBuzz(98));
-        assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(99));
+        assertEquals("Fizz",     FizzBuzz.fizzBuzz(99));
         assertEquals("Buzz",     FizzBuzz.fizzBuzz(100));
     }
 }

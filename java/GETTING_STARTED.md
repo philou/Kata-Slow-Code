@@ -1,4 +1,4 @@
-# Getting Started with Bowling Game kata in Java
+# Getting Started with Slow Code kata in Java
 
 ## Prerequisites
 
@@ -18,11 +18,11 @@
 
 ### 1 - Clone the kata repository
 ```shell
-git clone https://github.com/murex/Kata-BowlingGame.git
+git clone https://github.com/philou/Kata-Slow-Code.git
 ```
 ### 2 - Go to the kata's `java` directory
 ```shell
-cd Kata-BowlingGame/java
+cd Kata-Slow-Code/java
 ```
 
 ## Running the kata
@@ -44,7 +44,7 @@ You may also run it using [TCR](../tcr/TCR.md) if you want to add a bit of spice
 <a name="running-the-kata-from-a-terminal-with-gradle"/></a>
 ### Running the kata from a terminal with Gradle
 
-> ***Reminder***: the command below should be run from [Kata-BowlingGame/java]() directory
+> ***Reminder***: the command below should be run from [Kata-Slow-Code/java]() directory
 
 The kata comes with Gradle wrapper pre-installed. Just type the following to run it.
 ```shell
@@ -54,7 +54,7 @@ The kata comes with Gradle wrapper pre-installed. Just type the following to run
 <a name="running-the-kata-from-a-terminal-with-maven"/></a>
 ### Running the kata from a terminal with Maven
 
-> ***Reminder***: the command below should be run from [Kata-BowlingGame/java]() directory
+> ***Reminder***: the command below should be run from [Kata-Slow-Code/java]() directory
 
 The kata comes with Maven wrapper pre-installed. Just type the following to run it.
 ```shell
@@ -81,12 +81,12 @@ Refer to [Using TCR](#using-tcr) section for additional details about TCR and av
 
 Open Intellij IDEA and select:
 
-`File` > `Open` > `Kata-BowlingGame` > `java`
+`File` > `Open` > `Kata-Slow-Code` > `java`
 
 After loading the project into IntelliJ, you can build the project
 using either the Maven or Gradle built-in build tools.
 
-Run all the tests in the [BowlingGameTest](./src/test/java/com/murex/BowlingGameTest.java)
+Run all the tests in the [FizzBuzzTest](./src/test/java/com/murex/FizzBuzzTest.java)
 class.
 
 The "**Run**" tool window should display all the executed tests.
@@ -101,7 +101,7 @@ You can run it from IntelliJ IDEA directly, through leveraging on its built-in t
 
 Open Intellij IDEA and select:
 
-`File` > `Open` > `Kata-BowlingGame` > `java`
+`File` > `Open` > `Kata-Slow-Code` > `java`
 
 #### 2. Turn off auto-save
 
@@ -137,7 +137,7 @@ different location.
 
 #### 5. Launch TCR
 
-> ***Reminder***: the command below should be run from [Kata-BowlingGame/java]() directory
+> ***Reminder***: the command below should be run from [Kata-Slow-Code/java]() directory
 
 From the built-in terminal:
 
@@ -152,12 +152,12 @@ Refer to [Using TCR](#using-tcr) section for additional details about TCR and av
 
 Open Visual Studio Code and select:
 
-`File` > `Open Folder` > `Kata-BowlingGame` > `java`
+`File` > `Open Folder` > `Kata-Slow-Code` > `java`
 
 After loading the project into Visual Studio Code, you can build the project
 using either the Maven or Gradle built-in build tools.
 
-Run all the tests in the [BowlingGameTest](./src/test/java/com/murex/BowlingGameTest.java)
+Run all the tests in the [FizzBuzzTest](./src/test/java/com/murex/FizzBuzzTest.java)
 class.
 
 Open the `Testing` tab to view all the executed tests.
@@ -169,7 +169,7 @@ Open the `Testing` tab to view all the executed tests.
 
 Open Visual Studio Code and select:
 
-`File` > `Open Folder` > `Kata-BowlingGame` > `java`
+`File` > `Open Folder` > `Kata-Slow-Code` > `java`
 
 #### 2. Turn off auto-save
 
@@ -189,7 +189,7 @@ button to open a new "Git Bash" terminal.
 
 #### 4. Launch TCR
 
-> ***Reminder***: the command below should be run from [Kata-BowlingGame/java]() directory
+> ***Reminder***: the command below should be run from [Kata-Slow-Code/java]() directory
 
 From the built-in terminal:
 
@@ -204,12 +204,12 @@ Refer to [Using TCR](#using-tcr) section for additional details about TCR and av
 
 Open the kata in Eclipse:
 
-`File` > `Open Projects from File System...` > `Kata-BowlingGame` 
+`File` > `Open Projects from File System...` > `Kata-Slow-Code` 
 
 After loading the project into Eclipse, you can build the project
 using either the Maven or Gradle built-in build tools.
 
-Run all the tests in the [BowlingGameTest](./src/test/java/com/murex/BowlingGameTest.java)
+Run all the tests in the [FizzBuzzTest](./src/test/java/com/murex/FizzBuzzTest.java)
 class.
 
 Navigate to the test class then: 
@@ -224,7 +224,7 @@ A `JUnit` tab should be opened that displays all the executed tests.
 #### 1. Open the kata
 Open the kata in Eclipse:
 
-`File` > `Open Projects from File System...` > `Kata-BowlingGame`
+`File` > `Open Projects from File System...` > `Kata-Slow-Code`
 
 #### 2. Open a Git Bash terminal
 
@@ -235,11 +235,11 @@ A new `Terminal` window should be opened.
 To start a `git bash` terminal:
 1. Click on the `Open Terminal` button or use the shortcut `(Ctrl+Alt+Shift+T)`.
 2. From the opened pop-up window select `Git Bash` then `OK`
-3. From the terminal navigate to [Kata-BowlingGame/java]() directory
+3. From the terminal navigate to [Kata-Slow-Code/java]() directory
 
 #### 3. Launch TCR
 
-> ***Reminder***: the command below should be run from [Kata-BowlingGame/java]() directory
+> ***Reminder***: the command below should be run from [Kata-Slow-Code/java]() directory
 
 From the built-in terminal:
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.murex.xpcoaching</groupId>
-    <artifactId>Kata-BowlingGame</artifactId>
+    <artifactId>Kata-Slow-Code</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

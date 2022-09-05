@@ -1,6 +1,6 @@
 # Quick Retrospective
 
-## Bowling Game
+## Slow Code Kata
 
 | Team | Date |
 | ---- | ---- |
