@@ -22,9 +22,11 @@ SOFTWARE.
 
 package com.murex;
 
-// Instructions here: https://codingdojo.org/kata/Diamond/
-class Diamond {
-    static String draw(char letter) {
+// Instructions:
+// Write a function, that given a line number, returns the triangle as a string
+// Details here: https://en.wikipedia.org/wiki/Pascal%27s_triangle
+class PascalTriangle {
+    static String draw(int line) {
         return "";
     }
 }
