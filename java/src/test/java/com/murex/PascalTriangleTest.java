@@ -25,22 +25,23 @@ package com.murex;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertArrayEquals;
 
 public class PascalTriangleTest {
     @Ignore
     @Test
     public void acceptance_test() {
-        char line = '7';
-        String expected = ""
-                + "1\n"
-                + "1 1\n"
-                + "1 2 1\n"
-                + "1 3 3 1\n"
-                + "1 4 6 4 1\n"
-                + "1 5 10 10 5 1\n"
-                + "1 6 15 20 15 6 1\n"
-                + "1 7 21 35 35 21 7 1\n";
-        assertEquals(expected, PascalTriangle.draw(line));
+        assertArrayEquals(new int[]{1}, PascalTriangle.line(0));
+        assertArrayEquals(new int[]{1, 1}, PascalTriangle.line(1));
+        assertArrayEquals(new int[]{1, 2, 1}, PascalTriangle.line(2));
+        assertArrayEquals(new int[]{1, 3, 3, 1}, PascalTriangle.line(3));
+        assertArrayEquals(new int[]{1, 4, 6, 4, 1}, PascalTriangle.line(4));
+        assertArrayEquals(new int[]{1, 5, 10, 10, 5, 1}, PascalTriangle.line(5));
+        assertArrayEquals(new int[]{1, 6, 15, 20, 15, 6, 1}, PascalTriangle.line(6));
+        assertArrayEquals(new int[]{1, 7, 21, 35, 35, 21, 7, 1}, PascalTriangle.line(7));
+        
+        //...
+
+        assertArrayEquals(new int[]{1, 15, 105, 455, 1365, 3003, 5005, 6435, 6435, 5005, 3003, 1365, 455, 105, 15, 1}, PascalTriangle.line(15));
     }
 }

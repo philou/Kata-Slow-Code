@@ -26,7 +26,7 @@ package com.murex;
 // Write a function, that given a line number, returns the triangle as a string
 // Details here: https://en.wikipedia.org/wiki/Pascal%27s_triangle
 class PascalTriangle {
-    static String draw(int line) {
-        return "";
+    static int[] line(int i) {
+        return null;
     }
 }
