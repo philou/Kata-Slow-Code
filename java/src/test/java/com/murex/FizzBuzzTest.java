@@ -31,6 +31,11 @@ public class FizzBuzzTest {
     @Ignore
     @Test
     public void acceptance_test() {
+        // /!\ Should only pass at the end:
+        // - Keep ignored
+        // - Write and pass intermediate tests
+        // - Unignore at the end when should be passing
+
         assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(90));
         assertEquals("91",       FizzBuzz.fizzBuzz(91));
         assertEquals("92",       FizzBuzz.fizzBuzz(92));
