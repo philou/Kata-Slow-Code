@@ -5,5 +5,5 @@ config:
   mob-timer:
     duration: 5m0s
   tcr:
-    language: typescript
+    language: javascript
     toolchain: yarn

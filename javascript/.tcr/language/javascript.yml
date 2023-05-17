@@ -3,7 +3,7 @@ toolchains:
   compatible-with: [yarn]
 source-files:
   directories: [src]
-  patterns: ['(?i)^.*\.ts$']
+  patterns: ['(?i)^.*\.js$']
 test-files:
   directories: [test]
-  patterns: ['(?i)^.*\.ts$']
+  patterns: ['(?i)^.*\.js$']
