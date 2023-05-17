@@ -14,11 +14,12 @@ This repo is meant to be used with simple katas to practice slow (mindful) codin
 
 The 2 katas are:
 - Fizz Buzz, instructions are available [here](https://codingdojo.org/kata/FizzBuzz/)
-- Diamonds, instructions are available [here](https://codingdojo.org/kata/Diamond/)
+- Pascal Triangle, instructions are available [here](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
 
 ## Getting Started
 
 - [Java](java/GETTING_STARTED.md)
+- [Python](python/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
@@ -54,6 +55,7 @@ You can fill it from [here](QuickRetrospective.md)
 ### Source Files
 
 - [Java](java)
+- [Python](python)
 
 ## License
 

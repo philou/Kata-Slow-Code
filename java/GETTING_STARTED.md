@@ -1,4 +1,4 @@
-# Getting Started with Bowling Game kata in Java
+# Getting Started with Slow Code kata in Java
 
 ## Prerequisites
 
