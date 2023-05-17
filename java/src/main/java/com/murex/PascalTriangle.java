@@ -23,7 +23,7 @@ SOFTWARE.
 package com.murex;
 
 // Instructions:
-// Write a function, that given a line number, returns the triangle as a string
+// Write a function, that given a line number, returns the triangle as an array of integers
 // Details here: https://en.wikipedia.org/wiki/Pascal%27s_triangle
 class PascalTriangle {
     static int[] line(int i) {

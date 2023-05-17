@@ -31,9 +31,9 @@ public class PascalTriangleTest {
     @Test
     public void acceptance_test() {
         // /!\ Should only pass at the end:
-        // - Keep ignored
+        // - Keep disabled
         // - Write and pass intermediate tests
-        // - Unignore at the end when should be passing
+        // - Enable at the end when should be passing
 
         assertArrayEquals(new int[]{1}, PascalTriangle.line(0));
         assertArrayEquals(new int[]{1, 1}, PascalTriangle.line(1));
