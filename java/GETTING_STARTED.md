@@ -1,14 +1,14 @@
-# Getting Started with Slow Code kata in Java
+# Getting Started with Bowling Game kata in Java
 
 ## Prerequisites
 
 - macOS, Linux or Windows
 - [git](https://git-scm.com/) client
 - [curl](https://curl.se/download.html) command line utility
-- [Java JDK-11](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11)
+- [Java JDK-17](https://www.oracle.com/java/technologies/downloads/#java17)
   <details><summary>Details</summary>
 
-  The source code of this project is compatible with Java-11 and above.
+  The source code of this project is compatible with Java 17 and above.
   Remember to update the java version in the kata's [pom.xml](pom.xml)
   and/or [build.gradle](build.gradle) if you're planning to use a different version.
 
@@ -269,10 +269,3 @@ Here are the main shortcuts available once TCR utility is running:
 
 Refer to [TCR - Test && Commit || Revert](../tcr/TCR.md) page
 for additional details and explanations about TCR utility.
-
-
-
-
-
-
-

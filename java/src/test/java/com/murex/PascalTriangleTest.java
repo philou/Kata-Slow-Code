@@ -22,13 +22,12 @@ SOFTWARE.
 
 package com.murex;
 
-import org.junit.Ignore;
-import org.junit.Test;
-
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 public class PascalTriangleTest {
-    @Ignore
+    @Disabled
     @Test
     public void acceptance_test() {
         // /!\ Should only pass at the end:

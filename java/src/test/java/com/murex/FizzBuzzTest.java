@@ -22,13 +22,12 @@ SOFTWARE.
 
 package com.murex;
 
-import org.junit.Ignore;
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
-    @Ignore
+    @Disabled
     @Test
     public void acceptance_test() {
         // /!\ Should only pass at the end:
