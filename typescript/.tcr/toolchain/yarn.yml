@@ -8,5 +8,5 @@ test:
     arch: ["386", amd64, arm64]
     command: yarn 
     arguments: [jest]
-test-result-dir: test
+test-result-dir: test_results
 

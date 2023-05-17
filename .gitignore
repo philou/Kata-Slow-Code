@@ -28,6 +28,7 @@
 
 # Typescript folders containing generated stuff
 **/node_modules/
+**/test_results/
 
 # ApprovalTests - generated golden master files
 GoldenMasterTest.*.txt

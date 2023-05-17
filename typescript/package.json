@@ -8,9 +8,13 @@
     "@types/jest": "*",
     "jest": "*",
     "ts-jest": "*",
+    "jest-junit": "*",
     "typescript": "*"
   },
   "scripts": {
     "test": "jest --watchAll"
+  },
+  "jest-junit": {
+    "outputDirectory": "./test_results"
   }
 }
