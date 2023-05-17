@@ -26,6 +26,9 @@
 **/pytest/
 **/*.egg-info/
 
+# Typescript folders containing generated stuff
+**/node_modules/
+
 # ApprovalTests - generated golden master files
 GoldenMasterTest.*.txt
 *.txt.bak

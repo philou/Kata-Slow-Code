@@ -1,0 +1,16 @@
+{
+  "name": "kata-slow-code",
+  "version": "1.0.0",
+  "description": "Code for the Slow Code Kata",
+  "author": "Murex",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  }
+}
