@@ -19,6 +19,13 @@
 **/csharp/**/obj/
 **/csharp/**/TestResults/
 
+# Python folders containing generated stuff
+**/venv/
+**/dist/
+**/.pytest_cache/
+**/pytest/
+**/*.egg-info/
+
 # ApprovalTests - generated golden master files
 GoldenMasterTest.*.txt
 *.txt.bak
@@ -718,5 +725,3 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,eclipse,intellij,visualstudio,gradle,cmake,visualstudiocode,code-java,clion,diff
-
-
