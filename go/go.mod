@@ -1,4 +1,4 @@
-module github.com/murex/kata/bowling_game
+module github.com/murex/kata/slow_code
 
 go 1.18
 

@@ -19,6 +19,7 @@ The 2 katas are:
 ## Getting Started
 
 - [Java](java/GETTING_STARTED.md)
+- [Go](go/GETTING_STARTED.md)
 - [Python](python/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
@@ -55,6 +56,7 @@ You can fill it from [here](QuickRetrospective.md)
 ### Source Files
 
 - [Java](java)
+- [Go](go)
 - [Python](python)
 
 ## License

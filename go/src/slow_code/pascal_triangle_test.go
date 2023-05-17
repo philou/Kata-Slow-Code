@@ -34,16 +34,18 @@ func Test_pascal_triangle_acceptance_test(t *testing.T) {
 	// - Un-skip at the end when should be passing
 	t.Skip("test currently disabled")
 
-	assert.Equal(t, []int{1}, pascalTriangle(0))
-	assert.Equal(t, []int{1, 1}, pascalTriangle(1))
-	assert.Equal(t, []int{1, 2, 1}, pascalTriangle(2))
-	assert.Equal(t, []int{1, 3, 3, 1}, pascalTriangle(3))
-	assert.Equal(t, []int{1, 4, 6, 4, 1}, pascalTriangle(4))
-	assert.Equal(t, []int{1, 5, 10, 10, 5, 1}, pascalTriangle(5))
-	assert.Equal(t, []int{1, 6, 15, 20, 15, 6, 1}, pascalTriangle(6))
-	assert.Equal(t, []int{1, 7, 21, 35, 35, 21, 7, 1}, pascalTriangle(7))
+	p := &pascalTriangle{}
+
+	assert.Equal(t, []int{1}, p.line(0))
+	assert.Equal(t, []int{1, 1}, p.line(1))
+	assert.Equal(t, []int{1, 2, 1}, p.line(2))
+	assert.Equal(t, []int{1, 3, 3, 1}, p.line(3))
+	assert.Equal(t, []int{1, 4, 6, 4, 1}, p.line(4))
+	assert.Equal(t, []int{1, 5, 10, 10, 5, 1}, p.line(5))
+	assert.Equal(t, []int{1, 6, 15, 20, 15, 6, 1}, p.line(6))
+	assert.Equal(t, []int{1, 7, 21, 35, 35, 21, 7, 1}, p.line(7))
 
 	//...
 
-	assert.Equal(t, []int{1, 15, 105, 455, 1365, 3003, 5005, 6435, 6435, 5005, 3003, 1365, 455, 105, 15, 1}, pascalTriangle(15))
+	assert.Equal(t, []int{1, 15, 105, 455, 1365, 3003, 5005, 6435, 6435, 5005, 3003, 1365, 455, 105, 15, 1}, p.line(15))
 }

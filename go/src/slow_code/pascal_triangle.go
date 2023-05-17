@@ -22,9 +22,11 @@ SOFTWARE.
 
 package slow_code
 
+type pascalTriangle struct{}
+
 // Instructions:
 // Write a function, that given a line number, returns the triangle as a table of integers
 // Details here: https://en.wikipedia.org/wiki/Pascal%27s_triangle
-func pascalTriangle(i int) []int {
+func (p *pascalTriangle) line(i int) []int {
 	return nil
 }
