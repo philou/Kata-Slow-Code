@@ -34,6 +34,7 @@ public class PascalTriangleTest {
         // - Keep disabled
         // - Write and pass intermediate tests
         // - Enable at the end when should be passing
+        // /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
 
         assertArrayEquals(new int[]{1}, PascalTriangle.line(0));
         assertArrayEquals(new int[]{1, 1}, PascalTriangle.line(1));

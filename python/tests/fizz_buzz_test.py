@@ -10,6 +10,7 @@ class TestFizzBuzz:
         # - Keep skipped
         # - Write and pass intermediate tests
         # - Un-skip at the end when should be passing
+        # /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
 
         assert fizz_buzz(90) == "FizzBuzz"
         assert fizz_buzz(91) == "91"

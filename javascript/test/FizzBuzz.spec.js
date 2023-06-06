@@ -9,6 +9,7 @@ describe("FizzBuzz", () => {
     // - Keep skipped
     // - Write and pass intermediate tests
     // - Un-skip at the end when should be passing
+    // /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
 
     expect(fizzBuzz(90)).toBe("FizzBuzz");
     expect(fizzBuzz(91)).toBe("91");

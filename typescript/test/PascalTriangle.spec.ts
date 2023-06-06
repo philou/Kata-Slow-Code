@@ -1,13 +1,13 @@
-
 import { PascalTriangle } from "../src/PascalTriangle";
 
 describe('PascalTriangle', () => {
     it.skip('acceptance_test', () => {
-
         // /!\ Should only pass at the end:
         // - Keep skipped
         // - Write and pass intermediate tests
         // - Un-skip at the end when should be passing
+        // /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
+
         expect(PascalTriangle.line(0)).toEqual([1]);
         expect(PascalTriangle.line(1)).toEqual([1, 1]);
         expect(PascalTriangle.line(2)).toEqual([1, 2, 1]);

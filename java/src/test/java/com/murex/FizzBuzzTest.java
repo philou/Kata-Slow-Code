@@ -34,6 +34,7 @@ public class FizzBuzzTest {
         // - Keep disabled
         // - Write and pass intermediate tests
         // - Enable at the end when should be passing
+        // /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
 
         assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(90));
         assertEquals("91",       FizzBuzz.fizzBuzz(91));

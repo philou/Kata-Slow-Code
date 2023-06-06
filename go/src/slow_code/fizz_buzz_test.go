@@ -32,6 +32,7 @@ func Test_fizz_buzz_acceptance_test(t *testing.T) {
 	// - Keep skipped
 	// - Write and pass intermediate tests
 	// - Un-skip at the end when should be passing
+    // /!\ IF YOU PASS IT... YOU MIGHT HAVE GONE TOO FAST!
 	t.Skip("test currently disabled")
 
 	assert.Equal(t, "FizzBuzz", fizzBuzz(90))
