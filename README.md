@@ -24,10 +24,6 @@ The 2 katas are:
 - [Python](python/GETTING_STARTED.md)
 - [Typescript](typescript/GETTING_STARTED.md)
 
-## Session Quick Retrospective
-
-You can fill it from [here](QuickRetrospective.md)
-
 ## Useful Links
 
 ### For this Kata
@@ -43,17 +39,7 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### Style & Duration
 
-- 2-hour [Prepared Kata](doc/PreparedKata.md)
-
-### Topic
-
-- Basic TDD
-
-### Focus Points
-
-- Red-Green-refactor
-- Baby Steps
-- YAGNI
+The best way to run this session is in a 2 or 3 hours workshop, following the instructions in the [accompanying slides](./slow%20(code)%20retreat.pptx)
 
 ### Source Files
 
@@ -68,6 +54,8 @@ You can fill it from [here](QuickRetrospective.md)
 `Kata-Slow-Code` and the accompanying materials are made available
 under the terms of the [MIT License](LICENSE.md) which accompanies this
 distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
+
+The accompanying workshop slides are under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Acknowledgements
 
@@ -107,17 +95,3 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for more information.
     </td>
 </tr>
 </table>
-
-## Additional Contributors
-
-### For providing initial setup for C#
-
-<table>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Tr00d>
-            <img src=https://avatars.githubusercontent.com/u/59444272?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Guillaume Faas/>
-            <br />
-            <sub style="font-size:14px"><b>Guillaume Faas</b></sub>
-        </a>
-    </td>
