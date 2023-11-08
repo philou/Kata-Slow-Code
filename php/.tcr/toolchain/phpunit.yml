@@ -16,5 +16,5 @@ test:
     arch: ["386", amd64, arm64]
     command: .\vendor\bin\phpunit
     arguments: [tests]
-test-result-dir: build/test-results/test
+test-result-dir: .phpunit.cache
 
